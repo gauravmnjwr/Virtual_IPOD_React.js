@@ -41,9 +41,8 @@ body {
 
 #listdiv div {
     background-color: gray;
-    height: 24.2%;
+    height: 25.2%;
     text-align: center;
-    border: 1px solid white;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -51,39 +50,10 @@ body {
     cursor: not-allowed;
 }
 
-/* #screendiv li {
-    list-style-type: none;
-    border: 1px solid white;
-    width: 170px;
-    border-radius: 21px;
-    margin: 0;
-    padding: 0;
-    display: block;
-    overflow: scroll;
-    overflow: none;
-}
-
-
-#screendiv ul {
-    height: 35px;
-    background-color: gray;
-    opacity: .7;
-    color: white;
-
-}
-
-
-::-webkit-scrollbar {
-    width: 0px;
-    background: transparent;
-} */
-
-
 /* BUTTON */
 
 #button-container {
     display: block;
-    border: 1px solid blue;
     border-radius: 25px;
     height: 280px;
     margin: 10px;
@@ -135,4 +105,9 @@ img {
 
 #img4 {
     top: 25px;
+}
+
+span img{
+    color: white;
+
 }
