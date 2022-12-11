@@ -1,0 +1,138 @@
+body {
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50;
+}
+
+#main-container {
+    width: 320px;
+    height: 550px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    border-radius: 25px;
+    background-color:#d8d8e6;
+}
+
+/* SCREEENNN */
+
+
+#screendiv {
+    color: aliceblue;
+    display: block;
+    height: 250px;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    background-image: url("https://images.unsplash.com/photo-1670611554834-d7e6e48b7bc6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#listdiv {
+    height: 100%;
+    background-color: aliceblue;
+    width: 50%;
+    opacity: .78;
+}
+
+#listdiv div {
+    background-color: gray;
+    height: 24.2%;
+    text-align: center;
+    border: 1px solid white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: not-allowed;
+}
+
+/* #screendiv li {
+    list-style-type: none;
+    border: 1px solid white;
+    width: 170px;
+    border-radius: 21px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    overflow: scroll;
+    overflow: none;
+}
+
+
+#screendiv ul {
+    height: 35px;
+    background-color: gray;
+    opacity: .7;
+    color: white;
+
+}
+
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+} */
+
+
+/* BUTTON */
+
+#button-container {
+    display: block;
+    border: 1px solid blue;
+    border-radius: 25px;
+    height: 280px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#buttonsdiv {
+    border: 1px solid white;
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: relative;
+}
+
+#select-button {
+    height: 80px;
+    position: relative;
+    width: 80px;
+    border-radius: 40px;
+    border: 0px;
+    cursor: pointer;
+    background-color: gray;
+    opacity: .7;
+}
+
+img {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+}
+
+#img1 {
+    left: 20px;
+}
+
+#img2 {
+    right: 20px;
+}
+
+#img3 {
+    top: 155px;
+}
+
+#img4 {
+    top: 25px;
+}
