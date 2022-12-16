@@ -1,10 +1,10 @@
 import './App.css'
 import ScreenElement from './ScreenElement';
-function MainIpod(){
-    const labels = ['Cover Flow','Music','Games', 'Settings'];
+function MainIpod({ getScreenElement }) {
+    const labels = ['Cover Flow', 'Music', 'Games', 'Settings'];
     return <div id='screendiv'>
         <div id='listdiv'>
-            <ScreenElement labels={labels}/>
+            <ScreenElement labels={labels} getScreenElement={getScreenElement} />
         </div>
 
     </div>
