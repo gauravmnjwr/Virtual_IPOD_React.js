@@ -28,7 +28,7 @@ function ScreenElement({ labels, getScreenElement }) {
         }, false);
     }, 1000);
 
-    if ((number - prevValue.current) > 15) {    
+    if ((number - prevValue.current) > 700) {    
         
         if (currdiv === 3) {
             currdiv = -1;

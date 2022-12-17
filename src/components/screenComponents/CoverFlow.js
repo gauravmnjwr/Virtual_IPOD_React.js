@@ -1,6 +1,7 @@
 function CoverFlow() {
     return (<div id="blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/1374/1374723.png" alt="" />
+        <img src="https://img.icons8.com/clouds/512/loading-sign.png" alt="" />
+       
     </div>)
 }
 

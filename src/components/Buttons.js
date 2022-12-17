@@ -2,10 +2,12 @@ import './App.css'
 function Buttons({handleSelect,handleMenuClick}){
 
     const handleOnClick = () =>{
-        handleSelect('yoo');
+        // handling when button is clicked
+        handleSelect();
     }
 
     const menuClick = () =>{
+        //handle when menu button is clicked
         handleMenuClick();
     }
 

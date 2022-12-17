@@ -5,7 +5,7 @@ import CoverFlow from './screenComponents/CoverFlow';
 import Settings from './screenComponents/Settings';
 import Music from './screenComponents/Music';
 import Games from './screenComponents/Games';
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 function App() {
 
@@ -13,12 +13,11 @@ function App() {
     const [buttonClicked,setButtonClicked] = useState(-1);
     
     const handleSelect = (element) => {
-        //button
+        //passing to parent when the button is clicked
         setButtonClicked(newScreen);
-        // console.log(element)
     }
     const getScreenElement = (element) => {
-        //screen
+        //adding screen element 
         setNewScreen(element)
 
     }
@@ -28,7 +27,6 @@ function App() {
     }
 
     return (<div id="main-container" >
-        {newScreen}
         {buttonClicked===-1 && <Screen getScreenElement={getScreenElement}/>}
         {buttonClicked===0 && <div id='screendiv'><CoverFlow/></div>}
         {buttonClicked===1 && <div id='screendiv'><Music/></div>}
