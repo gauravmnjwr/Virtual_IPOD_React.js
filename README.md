@@ -1,7 +1,13 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 This project is deployed and can be accessed at - https://super-bubblegum-d3a870.netlify.app/
+
+##Guidance 
+Rotate the mouse wheel by click dragging over the wheel to move the selected components.
+Click the center select button to open a selected component on the screen.
+Click Menu button (top most) from the mouse wheel to go back to the menu.
 
 ## Available Scripts
 
