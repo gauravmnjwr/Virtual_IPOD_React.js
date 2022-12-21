@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is deployed and can be accessed at - https://super-bubblegum-d3a870.netlify.app/
 
 ## Available Scripts
 
